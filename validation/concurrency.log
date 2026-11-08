@@ -1,0 +1,4 @@
+PASS: concurrent exact updates reject stale writer final stock 7.0
+PASS: concurrent decreases cannot oversell via report final stock 2.0
+PASS: concurrent duplicate request applies once final stock 14.0
+PASS: core WooCommerce decrement waits on same stock row final stock 13.0

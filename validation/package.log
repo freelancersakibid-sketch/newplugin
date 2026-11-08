@@ -1,0 +1,23 @@
+PASS: archive integrity, single plugin root, entry point and migration file; 18 files
+ZIP bytes: 64955
+Unpacking the package...
+Installing the plugin...
+Removing the old version of the plugin...
+Plugin updated successfully.
+Activating 'variation-stock-report'...
+Warning: Plugin 'variation-stock-report' is already active.
+Success: Installed 1 of 1 plugins.
+PASS: installed ZIP activates, migrates, sets stock and renders report data on a clean database
+No syntax errors detected in wp-content/plugins/variation-stock-report/migrations/2.2.0.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/variation-stock-report.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-admin.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-stock-service.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-importer.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-exporter.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-db.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-installer.php
+No syntax errors detected in wp-content/plugins/variation-stock-report/includes/class-vsr-tracker.php
+Plugin 'variation-stock-report' deactivated.
+Success: Deactivated 1 of 1 plugins.
+Plugin 'variation-stock-report' activated.
+Success: Activated 1 of 1 plugins.

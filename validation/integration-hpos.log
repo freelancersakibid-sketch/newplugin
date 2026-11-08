@@ -1,0 +1,45 @@
+PASS: absolute set
+PASS: stale expected stock rejected
+PASS: negative decrease rejected
+PASS: negative exact set rejected
+PASS: duplicate retry changes stock once
+PASS: request identifier payload mismatch rejected
+PASS: backorder enabled decrease
+PASS: invalid numeric quantity rejected
+PASS: invalid numeric quantity rejected
+PASS: invalid numeric quantity rejected
+PASS: invalid numeric quantity rejected
+PASS: invalid request identifier rejected
+PASS: audit database failure rolls stock back
+PASS: rolled-back request can be retried
+PASS: failed stock SQL never reports success
+PASS: failed WooCommerce lookup write rolls stock back
+PASS: failed receipt write rolls stock and audit back
+PASS: CSV spreadsheet formula text neutralized
+PASS: audit failure admin notification rendered
+PASS: variation updates physical parent owner
+PASS: shared parent demand includes sibling sales
+PASS: shared retail valuation uses owner price
+PASS: filtering siblings cannot change shared inventory valuation
+PASS: SQL injection search remains literal text
+PASS: sales date range applies
+PASS: never sold latest-date filter executes
+PASS: attribute lookup chooses term from correct taxonomy
+PASS: summary query executes
+PASS: last sale selects latest audit or order date
+PASS: audit cursor does not repeat or include concurrent insertion
+PASS: failed report query throws instead of empty success
+PASS: custom return and duplicate item hooks produce one audit row
+PASS: bulk partial failure has explicit per-owner results and no success flag
+PASS: bulk deduplicates shared owners
+PASS: unauthorized stock endpoint denied
+PASS: invalid nonce denied
+PASS: historical import never changes physical stock
+PASS: unmanaged historical sale explicitly unverified
+PASS: historical import retry produces no duplicate evidence
+PASS: legacy imported sale displayed and filtered as unverified evidence
+PASS: legacy audit row classification does not rewrite stored evidence
+PASS: failed migration never advances version
+PASS: migration retries successfully
+PASS: migration preserves existing audit row exactly
+TOTAL: 44 assertions passed

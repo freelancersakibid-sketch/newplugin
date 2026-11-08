@@ -1,0 +1,5 @@
+PASS: authenticated inventory page renders
+PASS: delayed stale audit response discarded
+PASS: real audit CSV download matches movement filter
+PASS: browser exact stock form sends valid command and saves
+PASS: desktop/mobile render without JavaScript exceptions
